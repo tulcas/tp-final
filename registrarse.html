@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css"> <!-- normalize Para que se vea igual en todos los browsers--->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
+</head>
+<body>
+
+    <!-----------------------------header--------------------------------->
+    <header class="site-header"> 
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Inmobiliaria">
+                </a>
+                
+                <nav class="navegacion">
+
+                    <!-- Botones Nuevos ---------------------------->
+                    <ul class="botones-efecto">
+                        <li> <a href="nosotros.html" >Nosotros</a> </li>
+                        <li> <a href="anuncios.html" >Anuncios</a> </li>
+                        <li> <a href="blog.html" >Blog</a> </li>
+                        <li> <a href="registrarse.html" >Registrarse</a> </li>
+                        <li> <a href="contacto.html"  >Contacto</a> </li>
+                    </ul>
+  
+                    
+                </nav>
+            </div>
+
+
+        </div> <!-- Contenedor -->
+    </header>
+
+    <menu>
+        
+    <br><br>
+    <form action="show_data.html" target="_blank" class="reg_form">
+  
+
+        <label for="firstname"> NOMBRE * </label> <input type="text" name="firstname" required placeholder="Ingse su nombre aqui..." class="name">
+        <label for="lastname"> APELLIDO *  </label> <input type="text" name="lastname" required placeholder="Ingse su apellido aqui...">
+        <label for="street"> DIRECCION </label> <input type="text" name="address" placeholder="Ingse su direccion aqui..."> 
+        <label for="city"> CIUDAD </label> <input type="text" name="city" value="C.A.B.A"> 
+        <label for="zipcode"> CODIGO POSTAL </label> <input type="text" name="zipcode" placeholder="Ingse su codigo postal aqui...">
+        <label for="BirthDate"> FECHA DE NACIMIENTO </label> <input type="date" name="birthdate">
+        <label for="email"> E-MAIL * </label> <input type="email" name="email" required>
+        <label for="password"> CLAVE </label> <input type="password" name="password "> 
+        <!-- <label for="linktp"> LINK DEL TRABAJO PRACTICO </label> <input type="text" name="linktp"> -->
+
+        <!-- <p>GENERO:  <br><br>
+            <input type="radio" name="gender" value="hombre" checked > hombre
+            <input type="radio" name="gender" value="mujer" checked> mujer
+            <input type="radio" name="gender" value="otro" checked> otro
+        </p> -->
+
+        <!-- <p> CONOCIMIENTOS: <br><br>
+            <input type="checkbox" name="lenguajesprog" value="HTML"> HTML
+            <input type="checkbox" name="lenguajesprog" value="CSS"> CSS
+            <input type="checkbox" name="lenguajesprog" value="Bootstrap"> Bootstrap
+            <input type="checkbox" name="lenguajesprog" value="JavaScript"> JavaScript
+            <input type="checkbox" name="lenguajesprog" value="TypeScript"> TypeScript
+            <input type="checkbox" name="lenguajesprog" value="Angular"> Angular
+            <input type="checkbox" name="lenguajesprog" value="Base de datos"> Base de datos
+            <input type="checkbox" name="lenguajesprog" value="Python"> Python
+            <input type="checkbox" name="lenguajesprog" value="DJango"> DJango -->
+          
+           <!-- <p>ESTUDIOS: <br><br>
+            <select name="Estudios"> Estudios
+                <option>Primario</option>        
+                <option>Secundario</option>         
+                <option>Terciario</option>
+                <option>Universitario</option>
+            </select>
+           </p>
+           <textarea name="comment" form="usrform">deja un comentario... </textarea> -->
+    
+        </p>
+        <input type="submit" value="Enviar" >
+        
+    </form>
+
+    <!-- <p>Si usted hace click en el boton "Enviar" , la informacion sera enviada a la pagina "show_data.html"</p> -->
+    
+
+<!--------------------------Footer-------------------------------------->
+<footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="footer-redes">
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://ar.pinterest.com/" class="fa fa-pinterest"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+        <p class="copyright">Todos los Derechos Reservados 2020 &copy;</p>
+    </div>
+</footer>
+<!--------------------------Fin Footer-------------------------------------->
+    
+</body>
+</html>
+
+
+
