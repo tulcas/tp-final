@@ -221,13 +221,14 @@ h4 {
     padding-bottom: 2rem;
     max-width: 60rem;
     line-height: 2;
+    text-align: left;
 
 }
 
 .barra {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding-top: 3rem;
     
 }
