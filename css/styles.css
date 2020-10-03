@@ -13,7 +13,7 @@ body {
     font-size: 1.6rem;
     line-height: 2;
 
-}
+    }
 
 /** Globales **/
 
@@ -25,7 +25,7 @@ img {
 .contenedor {
     max-width: 120rem; /** 120rem = 1200px; **/
     margin: 0 auto ;
-}
+    }
 
 
 
@@ -45,6 +45,8 @@ h4 {
 }
 
 /** Utilidades **/
+
+
 .seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -61,9 +63,10 @@ h4 {
     display: block!important;
 }
 
+
 /** Botones nuevos efectos piola **/
 
-@media (min-width: 768px) {
+
 .botones-efecto {
     position: absolute;
     top: 50%;
@@ -75,13 +78,13 @@ h4 {
     display: flex;
 
     }
-}
-@media (min-width: 768px) {
+
+
 .botones-efecto li{
     list-style: none;
     }
-}
-@media (min-width: 768px) {
+
+
 .botones-efecto li a{
     position: relative;
     display: inline-block;
@@ -93,13 +96,11 @@ h4 {
     font-weight: bold;
     transition: 0.5s;
     font-size: 1.6rem;
-    
-}
-}
-@media (min-width: 768px) {
+    }
+
+
 .botones-efecto li a:hover{
     color: #b3b3b3;   
-}
 }
 
 @media (min-width: 768px) {
@@ -116,17 +117,17 @@ h4 {
     opacity: 0;
     transition: 0.5s;
     z-index: -1;
+    }
 }
-}
-@media (min-width: 768px) {
+
 .botones-efecto li a:hover::before
 {
     transform: scaley(1.2);
     opacity: 1;
-}
-}
+    }
 
-@media (min-width: 768px) {
+
+
 .botones-efecto li a::after {
     content: '';
     position: absolute;
@@ -138,27 +139,26 @@ h4 {
     transform: scale(0);
     transition: 0.5s;
     z-index: -1;
-}
-}
-@media (min-width: 768px) {
+    }
+
+
 .botones-efecto li a:hover::after
 {
     transform: scale(1);
 
-}
-}
+    }
+
 
 /** Responsive **/
-@media (min-width: 768px) {
+
     .boton {
         display: inline-block;
         flex: 0 0 auto;
     }
-}
+
 
 
 /** Fin Botones nav **/
-@media (min-width: 768px) {
 .boton {
     color: #ffffff;
     font-weight: 700;
@@ -167,10 +167,10 @@ h4 {
     padding: 1rem 3rem;
     margin-top: 3rem;
     display: inline-block; /*por defecto los a son todos block por eso se deben modificar a inline-block*/
-    text-align: center;
-    
-}
-}
+    text-align: center;    
+    }
+
+
 .boton-amarillo {
     background-color: #e08709;
     
@@ -224,13 +224,13 @@ h4 {
     text-align: left;
 
 }
-
+@media (min-width: 768px) {
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: left;
     padding-top: 3rem;
-    
+    }
 }
 
 /** Responsive **/
@@ -257,6 +257,8 @@ h4 {
         font-size: 1.8rem; /** = 18px **/
         margin-right: 2rem;
     }
+}
+
 
 /** Botones Navegacion **/
 
@@ -556,6 +558,9 @@ h4 {
   
   /* Set a specific color for each brand */
   
+  /** Footer Social Network **/
+
+
   /* Facebook */
   .fa-facebook:hover {
     background: #3B5998;
@@ -614,6 +619,7 @@ h4 {
     background-color: #333333;
     
 }
+
 
 /** PAGINAS INTERNAS **/ 
 
@@ -756,3 +762,14 @@ h4 {
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     border-radius: 100%;
   }
+
+
+
+/** Scroll TOP Smooth**/
+
+html {
+    scroll-behavior: smooth;
+  }
+.top {
+
+}
