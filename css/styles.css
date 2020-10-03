@@ -76,12 +76,14 @@ h4 {
 
     }
 
+}
 
+@media (min-width: 768px) {
 .botones-efecto li{
     list-style: none;
     }
 
-
+}
 .botones-efecto li a{
     position: relative;
     display: inline-block;
@@ -95,12 +97,13 @@ h4 {
     font-size: 1.6rem;
     }
 
-
+    @media (min-width: 768px) {
 .botones-efecto li a:hover{
     color: #b3b3b3;   
 }
+    }
 
-
+    @media (min-width: 768px) {
 .botones-efecto li a::before {
     content: ' ';
     position: absolute;
@@ -115,16 +118,17 @@ h4 {
     transition: 0.5s;
     z-index: -1;
     }
+}
 
-
+@media (min-width: 768px) {
 .botones-efecto li a:hover::before
 {
     transform: scaley(1.2);
     opacity: 1;
     }
+}
 
-
-
+@media (min-width: 768px) {
 .botones-efecto li a::after {
     content: '';
     position: absolute;
@@ -137,14 +141,14 @@ h4 {
     transition: 0.5s;
     z-index: -1;
     }
-
+}
 
 .botones-efecto li a:hover::after
 {
     transform: scale(1);
 
     }
-}
+
 
 /** Responsive **/
 @media (min-width: 768px) {
