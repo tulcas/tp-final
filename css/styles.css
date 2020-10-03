@@ -6,8 +6,6 @@ html {
     box-sizing: inherit;
   }
 
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
@@ -21,13 +19,11 @@ img {
     max-width: 100%;
 }
 
-
 .contenedor {
+    width: 95%;
     max-width: 120rem; /** 120rem = 1200px; **/
     margin: 0 auto ;
-    }
-
-
+}
 
  /** Sitema de tamaños de titulo **/
 h1 {
@@ -45,8 +41,6 @@ h4 {
 }
 
 /** Utilidades **/
-
-
 .seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -62,11 +56,14 @@ h4 {
 .d-block {
     display: block!important;
 }
+.contenido-centrado {
+    max-width: 800px;
+}
 
 
 /** Botones nuevos efectos piola **/
 
-
+@media (min-width: 768px) {
 .botones-efecto {
     position: absolute;
     top: 50%;
@@ -103,7 +100,7 @@ h4 {
     color: #b3b3b3;   
 }
 
-@media (min-width: 768px) {
+
 .botones-efecto li a::before {
     content: ' ';
     position: absolute;
@@ -118,7 +115,7 @@ h4 {
     transition: 0.5s;
     z-index: -1;
     }
-}
+
 
 .botones-efecto li a:hover::before
 {
@@ -147,15 +144,15 @@ h4 {
     transform: scale(1);
 
     }
-
+}
 
 /** Responsive **/
-
+@media (min-width: 768px) {
     .boton {
         display: inline-block;
         flex: 0 0 auto;
     }
-
+}
 
 
 /** Fin Botones nav **/
@@ -170,20 +167,22 @@ h4 {
     text-align: center;    
     }
 
+@media (min-width: 768px) {
+        .boton {
+            display: inline-block;
+            flex: 0 0 auto;
+        }
+    }
 
 .boton-amarillo {
     background-color: #e08709;
-    
-
 }
 .boton-verde {
     background-color: #71B100;
-
 }
 .contenido-centrado {
     max-width: 80rem;
 }
-
 
 /** Fin utilidades **/
 
@@ -244,6 +243,7 @@ h4 {
 
 
 /** Navegacion **/ 
+
 .navegacion a {
         color: #ffffff;
         text-decoration: none;
@@ -258,8 +258,6 @@ h4 {
         margin-right: 2rem;
     }
 }
-
-
 /** Botones Navegacion **/
 
 .navegacion a:last-of-type {
